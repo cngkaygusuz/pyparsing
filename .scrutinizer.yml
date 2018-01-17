@@ -1,4 +1,4 @@
-# This file contains the configuration for Scrutinizer-CI, a tool we use for software quality.
+# This file contains the configuration for Scrutinizer-CI, a tool we use for software quality purposes.
 
 build:
   # We will be running our tests in Python 2.7.7
