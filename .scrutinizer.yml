@@ -1,14 +1,14 @@
 # This file contains the configuration for Scrutinizer-CI, a tool we use for software quality purposes.
 
 build:
-  # We will be running our tests in Python 2.7.7
   environment:
-    python: 2.7.7
+      docker: true
 
   # Install development dependencies.
   dependencies:
     override:
       - 'pip install -r requirements-dev.txt'
+      - 'docker run ubuntu ls'
       - true  # to have scrutinizer-ci not infer any commands.
 
   tests:
