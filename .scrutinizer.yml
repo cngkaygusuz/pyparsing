@@ -37,3 +37,7 @@ build:
       - 'py-scrutinizer-run'
 
       - true # to have scrutinizer-ci not infer any commands.
+
+filter:
+  excluded_paths:
+    - "examples/"  # we don't want the example code analyzed.
