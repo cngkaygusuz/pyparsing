@@ -276,7 +276,7 @@ def conditionAsParseAction(fn, message=None, fatal=False):
     return pa
 
 class ParseBaseException(Exception):
-    """base exception class for all parsing runtime exceptions"""
+    """Base exception class for all parsing runtime exceptions."""
     # Performance tuning: we construct a *lot* of these, so keep this
     # constructor as small and fast as possible
     def __init__(self, pstr, loc=0, msg=None, elem=None):
