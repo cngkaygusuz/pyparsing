@@ -129,7 +129,7 @@ from types import SimpleNamespace
 
 
 class __config_flags:
-    """Internal class for defining compatibility and debugging flags"""
+    """Internal class for defining compatibility and debugging flags."""
     _all_names = []
     _fixed_names = []
     _type_desc = "configuration"
